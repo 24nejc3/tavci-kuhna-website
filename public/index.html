@@ -862,13 +862,17 @@
     .near-bled .grid, .cakes-moment .grid, .visit-grid { grid-template-columns: 1fr; gap: 40px; }
     .cakes-moment .text { order: -1; }
     .atm-grid {
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: auto;
-      aspect-ratio: 1/1;
+      grid-template-columns: 1fr;
+      gap: 16px;
+      aspect-ratio: auto;
       max-height: none;
     }
-    .atm-grid > div:nth-child(1) {
-      grid-row: span 1; grid-column: span 2; aspect-ratio: 16/9;
+    .atm-grid > div {
+      aspect-ratio: 16/9;
+    }
+    .atm-grid > div:nth-child(2),
+    .atm-grid > div:nth-child(5) {
+      display: none;
     }
     .footer-grid { grid-template-columns: 1fr; gap: 30px; }
     .footer-bottom { flex-direction: column; align-items: flex-start; }
