@@ -1,0 +1,24 @@
+# B.L.A.S.T. — gitignore
+
+# Secrets
+.env
+
+# Intermediates per Operating Principle 3
+.tmp/
+*.tmp.*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Build outputs
+*.zip
+*.tar.gz
+.vercel/
