@@ -1,95 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tavči Kuhna × Ayatana — Vegan Restaurant Near Bled | Lesce, Slovenia</title>
-  <meta name="description"
-    content="Plant-based comfort food, cakes &amp; deli favourites near Bled. Burgers, falafel, gyros, salads, Snickers cake. Wolt 9.8. Mon–Sun, Tue closed." />
-  <meta name="theme-color" content="#2c421d" />
-
-  <!-- Open Graph -->
-  <meta property="og:type" content="restaurant.restaurant" />
-  <meta property="og:title" content="Tavči Kuhna × Ayatana — Vegan Restaurant Near Bled" />
-  <meta property="og:description"
-    content="Plant-based comfort food, cakes, and deli favourites — ten minutes from Lake Bled. Burgers from €12.50, homemade falafel, kombucha on tap, and the famous Snickers cake." />
-  <meta property="og:image" content="assets/img/vegan-falafel-bled-variety-dishes.webp" />
-  <meta property="og:image:type" content="image/webp" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:url" content="https://tavci-kuhna.si" />
-  <meta property="og:site_name" content="Tavči Kuhna × Ayatana deli" />
-  <meta property="og:locale" content="en_GB" />
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Tavči Kuhna · Plant-based Comfort Food near Bled" />
-  <meta name="twitter:description"
-    content="Homemade vegan burgers, gyros, and famous Snickers cake. 10 mins from Lake Bled. No loud music, warm wooden vibes." />
-  <meta name="twitter:image" content="assets/img/vegan-falafel-bled-variety-dishes.webp" />
-
-  <link rel="preload" href="assets/img/vegan-falafel-bled-variety-dishes.webp" as="image" fetchpriority="high" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link
     href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=Caveat:wght@500;700&display=swap"
     rel="stylesheet" />
-
-  <!-- Schema.org Restaurant markup -->
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Restaurant",
-  "name": "Tavči Kuhna × Ayatana deli",
-  "alternateName": "Tavci Kuhna",
-  "description": "Plant-based comfort food, cakes, and deli favourites in Lesce — ten minutes from Lake Bled.",
-  "image": [
-    "assets/img/tavci-g-vegan-food-lesce-ayatana-kombucha-spread.webp",
-    "assets/img/tavci-g-vegan-bakery-lesce-cake-coffee-spread.webp"
-  ],
-  "url": "https://tavci-kuhna.si",
-  "telephone": "+38669926772",
-  "email": "tavcikuhna@gmail.com",
-  "priceRange": "€€",
-  "servesCuisine": ["Vegan", "Plant-based", "Deli", "Café"],
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Alpska cesta 43C",
-    "addressLocality": "Lesce",
-    "postalCode": "4248",
-    "addressCountry": "SI"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 46.3608115,
-    "longitude": 14.1559427
-  },
-  "openingHoursSpecification": [
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "11:00", "closes": "20:00" }
-  ],
-  "menu": "menu.html",
-  "acceptsReservations": "True",
-  "hasMap": "https://www.google.com/maps/place/Tavci+Kuhna+%26+Ayatana+deli",
-  "sameAs": [
-    "https://www.facebook.com/profile.php?id=100028103306507",
-    "https://www.instagram.com/tavci_kuhna",
-    "https://wolt.com/sl/svn/bled-lesce/restaurant/tavci-kuhna",
-    "https://www.happycow.net/reviews/tavci-kuhna-lesce-148906",
-    "https://www.bled.si/en/what-to-see-do/cuisine/catering-facilities/1"
-  ],
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "9.8",
-    "bestRating": "10",
-    "worstRating": "1",
-    "ratingCount": 1454,
-    "reviewCount": 1454
-  }
-}
-</script>
-
-  <style>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<style>
     :root {
       --cream: #f6f1e7;
       --cream-dark: #ece4d3;
@@ -368,7 +282,7 @@
       align-items: center;
       background:
         linear-gradient(115deg, rgba(44, 66, 29, 0.65) 0%, rgba(44, 66, 29, 0.25) 55%, rgba(44, 66, 29, 0) 100%),
-        url('assets/img/tavci-g-vegan-food-lesce-ayatana-kombucha-spread.webp');
+        url('https://tavci-kuhna.si/wp-content/uploads/2026/05/tavci-g-vegan-food-lesce-ayatana-kombucha-spread.webp');
       background-size: cover;
       background-position: center;
       color: white;
@@ -815,23 +729,23 @@
 
     .atm-grid>div:nth-child(1) {
       grid-row: span 2;
-      background-image: url('assets/img/tavci_g_02.jpg');
+      
     }
 
     .atm-grid>div:nth-child(2) {
-      background-image: url('assets/img/tavci_g_19.jpg');
+      
     }
 
     .atm-grid>div:nth-child(3) {
-      background-image: url('assets/img/tavci_g_06.jpg');
+      
     }
 
     .atm-grid>div:nth-child(4) {
-      background-image: url('assets/img/tavci_g_20.jpg');
+      
     }
 
     .atm-grid>div:nth-child(5) {
-      background-image: url('assets/img/tavci_g_15.jpg');
+      
     }
 
     /* ABOUT */
@@ -1283,9 +1197,8 @@
       }
     }
   </style>
-</head>
+<div class="tavci-wrap">
 
-<body>
 
   <!-- UTILITY BAR -->
   <div class="utility-bar">
@@ -1308,10 +1221,7 @@
       <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
       <nav class="nav-links" id="navLinks">
         <a href="" class="active" aria-current="page">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="desserts.html">Desserts</a>
-        <a href="specialty-coffee-bled.html">Coffee</a>
-        <a href="kombucha.html">Kombucha</a>
+        <a href="WORDPRESS_LINK_TO_MENU">Menu</a>
         <a href="#about">About</a>
         <a href="#visit">Visit</a>
         <a href="https://wolt.com/sl/svn/bled-lesce/restaurant/tavci-kuhna" target="_blank" rel="noopener noreferrer"
@@ -1329,7 +1239,7 @@
         <p class="lede">Burgers, falafel, gyros, wraps, salads — and a cake counter that locals and travellers cross the
           valley for. Open Mon–Sun, closed Tuesdays.</p>
         <div class="ctas">
-          <a href="menu.html" class="btn btn-primary">View the Menu</a>
+          <a href="WORDPRESS_LINK_TO_MENU" class="btn btn-primary">View the Menu</a>
           <a href="https://www.google.com/maps/dir/?api=1&destination=Tavci+Kuhna+%26+Ayatana+deli,+Alpska+cesta+43c,+4248+Lesce,+Slovenia"
             target="_blank" rel="noopener noreferrer" class="btn btn-ghost">Get Directions</a>
           <a href="https://wolt.com/sl/svn/bled-lesce/restaurant/tavci-kuhna" target="_blank" rel="noopener noreferrer"
@@ -1401,7 +1311,7 @@
         </a>
       </div>
       <div class="categories-cta">
-        <a href="menu.html" class="btn btn-line">See the full menu →</a>
+        <a href="WORDPRESS_LINK_TO_MENU" class="btn btn-line">See the full menu →</a>
       </div>
     </div>
   </section>
@@ -1445,10 +1355,10 @@
     <div class="wrap">
       <div class="grid">
         <div class="img-stack">
-          <img src="assets/img/vegan-bakery-lesce-cake-counter.webp"
+          <img src="https://tavci-kuhna.si/wp-content/uploads/2026/05/vegan-bakery-lesce-cake-counter.webp"
             alt="Selection of artisanal vegan cakes and pastries on display at the Tavči Kuhna counter in Lesce"
             loading="lazy" />
-          <img src="assets/img/vegan-cake-lesce-snickers-slice.webp"
+          <img src="https://tavci-kuhna.si/wp-content/uploads/2026/05/vegan-cake-lesce-snickers-slice.webp"
             alt="Close-up of a generous slice of layered vegan Snickers cake, a local favourite in Lesce"
             loading="lazy" />
         </div>
@@ -1479,19 +1389,19 @@
           a long lunch.</p>
       </div>
       <div class="atm-grid">
-        <div style="background-image:url('assets/img/tavci-g-vegan-restaurant-lesce-interior-mezzanine-warm-wood.webp')"
+        <div style="background-image:url('https://tavci-kuhna.si/wp-content/uploads/2026/05/tavci-g-vegan-restaurant-lesce-interior-mezzanine-warm-wood.webp')"
           role="img"
           aria-label="Sun-drenched wooden mezzanine with bench seating, cushions, and alpine-style decor at Tavči Kuhna">
         </div>
-        <div style="background-image:url('assets/img/tavci-g-vegan-restaurant-lesce-interior-architecture-stairs.webp')"
+        <div style="background-image:url('https://tavci-kuhna.si/wp-content/uploads/2026/05/tavci-g-vegan-restaurant-lesce-interior-architecture-stairs.webp')"
           role="img"
           aria-label="Modern wooden architecture featuring a mezzanine floor and staircase in the bright restaurant interior">
         </div>
-        <div style="background-image:url('assets/img/tavci-g-vegan-restaurant-lesce-cozy-sofa-seating.webp')" role="img"
+        <div style="background-image:url('https://tavci-kuhna.si/wp-content/uploads/2026/05/tavci-g-vegan-restaurant-lesce-cozy-sofa-seating.webp')" role="img"
           aria-label="Cosy sofa seating corner, perfect for reading and lingering over coffee"></div>
-        <div style="background-image:url('assets/img/tavci-g-vegan-bakery-lesce-cake-display-fridges.webp')" role="img"
+        <div style="background-image:url('https://tavci-kuhna.si/wp-content/uploads/2026/05/tavci-g-vegan-bakery-lesce-cake-display-fridges.webp')" role="img"
           aria-label="Professional cake display fridges showcasing a variety of fresh vegan cakes and desserts"></div>
-        <div style="background-image:url('assets/img/tavci-g-vegan-restaurant-lesce-bar-seating-edison-lights.webp')"
+        <div style="background-image:url('https://tavci-kuhna.si/wp-content/uploads/2026/05/tavci-g-vegan-restaurant-lesce-bar-seating-edison-lights.webp')"
           role="img"
           aria-label="Cosy bar area with high stools, hanging Edison bulbs, and a decorative chalkboard wall"></div>
       </div>
@@ -1573,7 +1483,7 @@
       <div class="kicker">come and eat</div>
       <h2>Come for <em>lunch, cake, takeaway,</em> or dinner near Bled.</h2>
       <div class="ctas">
-        <a href="menu.html" class="btn btn-dark">View the Menu</a>
+        <a href="WORDPRESS_LINK_TO_MENU" class="btn btn-dark">View the Menu</a>
         <a href="https://www.google.com/maps/dir/?api=1&destination=Tavci+Kuhna+%26+Ayatana+deli,+Alpska+cesta+43c,+4248+Lesce,+Slovenia"
           target="_blank" rel="noopener noreferrer" class="btn btn-line">Get Directions</a>
         <a href="https://wolt.com/sl/svn/bled-lesce/restaurant/tavci-kuhna" target="_blank" rel="noopener noreferrer"
@@ -1590,7 +1500,7 @@
           <div class="brand-foot">Tavči Kuhna <em>× Ayatana deli</em></div>
           <p>Plant-based comfort food, cakes, and deli favourites — ten minutes from Lake Bled, in a quiet alpine corner
             of Lesce.</p>
-          <p style="margin-top:18px;"><a href="menu.html">View the menu →</a></p>
+          <p style="margin-top:18px;"><a href="WORDPRESS_LINK_TO_MENU">View the menu →</a></p>
         </div>
         <div>
           <h4>Visit</h4>
@@ -1652,6 +1562,5 @@
     }
   </script>
 
-</body>
 
-</html>
+</div>
